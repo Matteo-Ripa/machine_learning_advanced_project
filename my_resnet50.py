@@ -1,9 +1,9 @@
-# The resnet50 architecture implements a new type of architecture that try
-# to solve the problem when prevoius models were forgetting information after
-# many layers; it does it throught a process when every three layers it gets
-# also the information from the layer osbervaed three  layers before. In this
-# way it brings infromation from the past and it doesn't update only form the last
-# layer.
+# The ResNet50 architecture implements a new type of architecture that tries to 
+# solve the problem observed in very deep networks, where adding more layers was 
+# making the training harder and the performance worse. It does this through residual,
+#  or skip, connections, where the input of a block is added directly to its output. 
+# In this way, the network can preserve information and gradients from earlier layers, 
+# and it does not rely only on the last layer to update the parameters.
 
 
 # Reference: https://www.youtube.com/watch?v=DkNIBBBvcPs
