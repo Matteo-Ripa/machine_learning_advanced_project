@@ -15,11 +15,11 @@ Inside the script, set your preferred output directories for:
   
   - The JSON file containing metadata for each image
 
-Run the script:
----------------------------
-bash
+**Run the script:**
+
 python dataset_creation.py
----------------------------
+
+
 
 Approximate requirements:
 
