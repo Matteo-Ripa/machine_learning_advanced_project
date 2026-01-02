@@ -7,6 +7,10 @@ This repository contains a project on image classification using ResNet50, compa
 
 Before running the main project notebook, the dataset must be created.
 
+Create two empty folder in the directory: 
+  - /images
+  - /data
+
 Open dataset_creation.py.
 
 Inside the script, set your preferred output directories for:
@@ -29,9 +33,9 @@ Storage needed: ~170 MB
 
 The script will produce:
 
-  - Generated plot images in the /image folder
+  - Generated plot images in the */images* folder
   
-  - JSON file with the properties of each image (e.g., distribution type, parameters, support) in the /data folder
+  - JSON file with the properties of each image (e.g., distribution type, parameters, support) in the */data* folder
 
 
 ### **2. Model Architecture**
@@ -65,9 +69,9 @@ Before running the notebook:
   
   - Update all paths/directories so that they correctly point to:
 
-    - The images/ folder
+    - The */images* folder
     
-    - The data/ folder containing the JSON metadata
+    - The */data* folder containing the JSON metadata
 
 
 ### **4. Runtime Estimates**
