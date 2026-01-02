@@ -1,9 +1,9 @@
-Project Overview
+## **Project Overview**
 
 This repository contains a project on image classification using ResNet50, comparing a model trained from scratch with a pre-trained version. The workflow includes synthetic dataset creation, model definition, training, hyperparameter fine-tuning, and evaluation.
 
 
-1. Dataset Creation
+### **1. Dataset Creation**
 
 Before running the main project notebook, the dataset must be created.
 
@@ -34,7 +34,7 @@ The script will produce:
   - JSON file with the properties of each image (e.g., distribution type, parameters, support) in the /data folder
 
 
-2. Model Architecture
+### **2. Model Architecture**
 
 The file my_resnet50.py contains the implementation of the ResNet50 architecture used for the from-scratch model.
 
@@ -43,7 +43,7 @@ Import this module in your training code or notebook to instantiate the scratch 
 The architecture is compatible with the dataset generated in the previous step.
 
 
-3. Main Project Code
+### **3. Main Project Code**
 
 The main workflow is implemented in the Jupyter notebook:
 
@@ -70,7 +70,7 @@ Before running the notebook:
     - The data/ folder containing the JSON metadata
 
 
-4. Runtime Estimates
+### **4. Runtime Estimates**
 
 Execution time depends on your hardware (especially GPU availability), but the following rough estimates can be used as a guideline:
 
@@ -84,6 +84,6 @@ Execution time depends on your hardware (especially GPU availability), but the f
 Overall, running the entire project_code.ipynb end-to-end can take approximately 1–2 hours.
 
 
-5. Report pdf file
+### **5. Report pdf file**
 
 The written report for the whole project.
