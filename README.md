@@ -11,14 +11,15 @@ Open dataset_creation.py.
 
 Inside the script, set your preferred output directories for:
 
-The generated images
-
-The JSON file containing metadata for each image
+  - The generated images
+  
+  - The JSON file containing metadata for each image
 
 Run the script:
-
+---------------------------
 bash
 python dataset_creation.py
+---------------------------
 
 Approximate requirements:
 
@@ -28,9 +29,9 @@ Storage needed: ~170 MB
 
 The script will produce:
 
-Generated plot images in the /image folder
-
-JSON file with the properties of each image (e.g., distribution type, parameters, support) in the /data folder
+  - Generated plot images in the /image folder
+  
+  - JSON file with the properties of each image (e.g., distribution type, parameters, support) in the /data folder
 
 
 2. Model Architecture
@@ -50,34 +51,34 @@ project_code.ipynb
 
 This notebook includes:
 
-Data loading and preprocessing
-
-Baseline training for both scratch and pre-trained ResNet50 models
-
-Hyperparameter fine-tuning
-
-Final experiments with different dataset sizes
+  - Data loading and preprocessing
+  
+  - Baseline training for both scratch and pre-trained ResNet50 models
+  
+  - Hyperparameter fine-tuning
+  
+  - Final experiments with different dataset sizes
 
 Before running the notebook:
 
-Open project_code.ipynb.
+  - Open project_code.ipynb.
+  
+  - Update all paths/directories so that they correctly point to:
 
-Update all paths/directories so that they correctly point to:
-
-The images/ folder
-
-The data/ folder containing the JSON metadata
+    - The images/ folder
+    
+    - The data/ folder containing the JSON metadata
 
 
 4. Runtime Estimates
 
 Execution time depends on your hardware (especially GPU availability), but the following rough estimates can be used as a guideline:
 
-Baseline model training: < 20 minutes
-
-Hyperparameter fine-tuning: ~1 hour
-
-Final experiments with different dataset sizes: up to ~1 hour
+  - Baseline model training: < 20 minutes
+  
+  - Hyperparameter fine-tuning: ~1 hour
+  
+  - Final experiments with different dataset sizes: up to ~1 hour
 
 
 Overall, running the entire project_code.ipynb end-to-end can take approximately 1–2 hours.
